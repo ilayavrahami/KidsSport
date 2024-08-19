@@ -1,0 +1,188 @@
+/* צורת עכבר מותאמת אישית */
+.custom-cursor {
+    cursor: pointer; /* או כל סוג אחר של סמל עכבר שתרצה */
+}
+
+
+body {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    margin: 0;
+    padding: 0;
+    background-image: url(background-image.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+
+h1, h2 {
+    color: #ff6347;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ffa07a;
+    border-radius: 10px;
+    font-size: 1.2em;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #ffa07a;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.2em;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #ff7f50;
+}
+
+center {
+    width: 100%;
+}
+
+.container {
+    background-image: url(images\ \(1\).png);
+    background-size: cover;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #0b6073;
+    width: 300px;
+    height: 300px;
+    margin: 40px auto; /* centering the container */
+    text-align: center; /* center aligning text */
+}
+
+.sleep-container {
+    background-image: url(background-modern-gradient-abstract_343694-1771.avif);
+    background-size: cover;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #0b6073;
+    width: 300px;
+    height: 300px;
+    margin: 40px auto; /* centering the container */
+    text-align: center; /* center aligning text */
+}
+
+.result-container {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: table-cell;
+}
+
+.fitness-games-link {
+    text-decoration: none;
+    color: #ff6347;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: 2px solid #ffa07a;
+    border-radius: 15px;
+    background-color: #f0f8ff;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.fitness-games-link:hover {
+    background-color: #ff7f50;
+    color: white;
+}
+
+#sleep {
+    font-size: 1.5em;
+    color: #ff6347;
+    margin: 20px 0;
+}
+
+#sleepFeedback {
+    font-size: 1.2em;
+    color: #ff4500;
+    margin: 20px 0;
+}
+#sleep2{
+    width: 200px;
+}
+
+.navbar {
+    background-color: rgb(6, 238, 255);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar a {
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: rgb(0, 157, 255);
+    border-radius: 5px;
+  }
+
+#div{
+    display: inline table;
+    margin-right: 100px;
+
+}
+#div2{
+    display: inline-table;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+#div3{
+    display: inline-table;
+
+}
+
+#div4{
+    display: inline table;
+    margin-right: 100px;
+
+}
+
+.skin-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    transition: border-color 0.3s;
+}
+
+.skin-icon:hover {
+    border-color: #ff6347;
+}
+
+#vegetableFruitIntake {
+    font-size: 1.5em;
+    color: #ff6347;
+    margin: 20px 0;
+}

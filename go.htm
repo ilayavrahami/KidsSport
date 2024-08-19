@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>משחק תביא משהו</title>
+    <link rel="stylesheet" href="go.css">
+</head>
+<body dir="rtl">
+    <div class="navbar">
+        <a href="#contact">🏆 <span id="trophyCountNavbar">0</span></a>
+        <a href="#services">שירותים</a>
+        <a href="games.html">משחקי כושר</a>
+        <a href="home.html">בית</a>
+    </div>
+    <center>
+    <h1>משחק תביא משהו</h1>
+    <p id="instruction">לחץ על "הבא משימה" כדי לקבל הנחיה.</p>
+    <button onclick="getInstruction()" id="task">הבא משימה</button>
+    <button id="doneButton" onclick="stopTimer()" style="display: none;">הבאתי</button>
+    <p id="feedback"></p>
+    <p id="timer" style="font-size: 1.5em; margin-top: 20px;">זמן: 0:00</p>
+    </center>
+
+</body>
+<script src="go.js"></script>
+<script src="updateTrophy.js"></script>
+</html>

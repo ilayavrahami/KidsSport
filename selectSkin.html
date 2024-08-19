@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>בחר סקין</title>
+    <link rel="stylesheet" href="selectSkin.css" />
+</head>
+<body dir="rtl">
+    <div class="navbar">
+        <a href="#contact">🏆 <span id="trophyCountNavbar">0</span></a>
+        <a href="selectSkin.html">
+            <img src="skin-white.jpg" alt="" class="skin-icon" id="skinIcon">
+        </a>       
+        <a href="games.html">משחקי כושר</a>
+        <a href="home.html">בית</a>
+    </div>
+    <div class="container">
+        <h1>בחר את הסקין שלך</h1>
+        <div class="skin-options">
+            <div class="skin-item">
+                <img src="skin-white.jpg" onclick="skin('skin-white', 0)" alt="סקין 1" class="skin-option" />
+                <p>0🏆</p>
+                <p style="color: rgb(85, 255, 47);;">קנית</p>
+            </div>
+            <div class="skin-item">
+                <img src="skin-man.jpg" onclick="skin('skin-man', 10)" alt="סקין 3" class="skin-option" data-skin="skin-man"/>
+                <p>10🏆</p>
+            </div>
+            <div class="skin-item">
+                <img src="skin-brain.jpg" onclick="skin('skin-brain', 20)" alt="סקין 2" class="skin-option" data-skin="skin-brain"/>
+                <p>20🏆</p>
+            </div>
+            <div class="skin-item">
+                <img src="skin-muscles.jpg" onclick="skin('skin-muscles', 30)" alt="סקין 4" class="skin-option" data-skin="skin-muscles"/>
+                <p>30🏆</p>
+            </div>
+            <div class="skin-item">
+                <img src="skin-sim.jpg" onclick="skin('skin-sim', 40)" alt="סקין 9" class="skin-option" data-skin="skin-sim"/>
+                <p>40🏆</p>
+            </div>
+            <div class="skin-item">
+                <img src="skin-girl.jpg" onclick="skin('skin-girl', 50)" alt="סקין 7" class="skin-option" data-skin="skin-girl"/>
+                <p>50🏆</p>
+            </div>
+            <div class="skin-item">
+                <img src="skin-pat.jpg" onclick="skin('skin-pat', 100)" alt="סקין 8" class="skin-option" data-skin="skin-pat"/>
+                <p>100🏆</p>
+            </div>
+            <div class="skin-item">
+                <img src="skin-bob2.jpg" onclick="skin('skin-bob2', 300)" alt="סקין 10" class="skin-option" data-skin="skin-bob2"/>
+                <p>300🏆</p>
+            </div>
+            <div class="skin-item">
+                <img src="skin-gif.jpg" onclick="skin('skin-gif', 500)" alt="סקין 5" class="skin-option" data-skin="skin-gif"/>
+                <p>500🏆</p>
+            </div>
+            <div class="skin-item">
+                <img src="skin-bob.jpg" onclick="skin('skin-bob', 1000)" alt="סקין 6" class="skin-option" data-skin="skin-bob"/>
+                <p>1000🏆</p>
+            </div>
+        </div>
+    </div>
+    <script src="home.js"></script>
+    <script src="updateTrophy.js"></script>
+    <script src="skin.js"></script>
+</body>
+</html>

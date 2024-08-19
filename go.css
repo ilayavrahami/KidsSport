@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(background-image.jpg);
+    background-size: cover;
+}
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+#instruction {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+button:active {
+    background-color: #004494;
+}
+#feedback {
+    font-size: 1.2em;
+    color: #28a745;
+    margin-top: 20px;
+}
+.navbar {
+    background-color: rgb(6, 238, 255);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar a {
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: rgb(0, 157, 255);
+    border-radius: 5px;
+  }
+
+#doneButton {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 10px;
+}
+
+#doneButton:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+#doneButton:active {
+    background-color: #1e7e34;
+}

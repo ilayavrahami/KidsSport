@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>משחקי כושר</title>
+    <link rel="stylesheet" href="Guess traffic.css">
+</head>
+<body dir="rtl">
+    <div class="navbar">
+        <a href="#contact">🏆 <span id="trophyCountNavbar">0</span></a>
+        <a href="selectSkin.html">
+            <img src="skin withe.jpg" alt="" class="skin-icon" id="skinIcon">
+        </a>        
+        <a href="games.html">משחקי כושר</a>
+        <a href="home.html">בית</a>
+    </div>
+    <div>
+        <center>
+            <h1>משחק עשו את התנועה</h1>
+            <img id="exerciseImage" src="exerciseImage.png">
+            <br><br>
+            <button id="startButton" onclick="startGame()">התחל משחק</button>
+            <br><br>
+            <h2 id="instruction"></h2>
+            <h3 id="timer">זמן נותר: 10 שניות</h3>
+        </center>
+    </div>
+    <script src="Guess traffic.js"></script>
+    <script src="updateTrophy.js"></script>
+    <script src="skin.js"></script>
+</body>
+</html>

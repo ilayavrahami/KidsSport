@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>כושר לילדים</title>
+    <link rel="stylesheet" href="home.css" />
+</head>
+<body dir="rtl">
+    <audio id="myAudio" src="bird-song-meditation-158717.mp3"></audio>
+
+    <div class="navbar">
+        <a href="#contact">🏆 <span id="trophyCountNavbar">0</span></a>
+        <a href="selectSkin.html">
+            <img src="skin-white.jpg" alt="מתחיל" class="skin-icon" id="skinIcon">
+        </a>       
+        <a href="games.html">משחקי כושר</a>
+        <a href="home.html">בית</a>
+    </div>
+    <div id="div">
+        <div class="container" style="background-image: url(images\ \(1\).png); background-size: cover;">
+            <h1>פרטים אישים</h1>
+            <div class="form-group">
+                <h2 id="height1">גובה:</h2>
+                <input type="text" id="height" />
+            </div>
+            <div class="form-group">
+                <h2 id="Weight1">משקל:</h2>
+                <input type="text" id="Weight" />
+            </div>
+            <div class="form-group">
+                <h2 id="age1">גיל:</h2>
+                <input type="text" id="age" />
+            </div>
+            <br /><br />
+            <button id="button" onclick="data()">שליחה</button>
+            <button onclick="change()" id="change" >עריכה</button>
+        </div>
+        <div class="container" style="background-image: url(360_F_328686671_TmjSm894j4zwQ9jLQjTI1vu4YY3XPZPi.jpg); background-size: cover;">
+            <h1>משחקי כושר לילדים</h1>
+            <center>
+                <img src="mike-meyers-FXYpXiVyM48-unsplash-removebg-preview.png" alt="" style="width: 70%;" onclick="game()" onmouseover="changeCursor('pointer')" onmouseout="changeCursor('default')">
+            </center>
+        </div>
+    </div>
+    <div id="div2">
+        <div class="episode container sleep-container" style="background-image: url(background-modern-gradient-abstract_343694-1771.avif); height: 679px;">
+            <h1>היום שלך</h1>
+            <div class="sleep-content">
+                <h1 id="sleep">שעת שינה:</h1>
+                <input type="text" placeholder="כמה שעות ישנת היום?" id="sleep2" />
+                <br />
+                <button onclick="saveSleep()">שליחה</button>
+                <h2 id="average">שעת שינה ממוצעת:</h2>
+                <h2 id="averageSleep"></h2>
+                <h2 id="waterIntake">ליטרים מומלצים לשתייה:</h2>
+                <h2 id="sleepFeedback"></h2>
+            </div>
+        </div>
+    </div>
+    <div id="div3">
+        <div class="episode container sleep-container" style="background-image: url(114172-orange-and-yellow-diagonal-stripes-background-vector.jpg); background-size: cover; height: 679px;">
+            <h1>כמה לאכול</h1>
+            <h2 id="vegetableFruitIntake">כמות ירקות ופירות מומלצת:</h2>
+            <h2 id="carbIntake">כמות פחממות מומלצת:</h2>
+            <h2 id="eggIntake">כמות ביצים מומלצת:</h2>
+            <h2 id="bmiStatus">מצב משקל לפי BMI:</h2>
+
+        </div>
+    </div>
+
+    <div id="div4">
+        <div class="container" style="background-image: url(white-elegant-texture-background_23-2148446112.avif); background-size: cover;">
+            <h1>סרטוני כושר</h1>
+            <img src="TV.png" width="200px" onmouseover="changeCursor('pointer')" onmouseout="changeCursor('default')" onclick="vid()">
+        </div>
+        <div class="container" style="background-image: url(diagonal-black-white-dark-panels-texture_199726-9891.avif); background-size: cover;">
+            <h1 id="tast">מטלות יומיות</h1>
+            <ul id="dailyTasks">
+                <!-- Tasks will be populated dynamically -->
+            </ul>
+            <button onclick="clearTasks()" id="finish">סיימתי את המשימות</button>
+        </div>
+    </div>
+
+    <script src="home.js"></script>
+    <script src="updateTrophy.js"></script>
+    <script src="skin.js"></script>
+</body>
+</html>
